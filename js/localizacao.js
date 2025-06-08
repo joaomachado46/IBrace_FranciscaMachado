@@ -14,7 +14,7 @@ function tentarNovamente() {
       const aviso = document.getElementById('aviso-localizacao');
       aviso.classList.add("ocultar");
 
-      const userid = '525019daefcb432ca5c9562518bf1bc6';
+      const userid = '525019daefcb432ca5c9562518bf1bc7';
 
       fetch('https://appnfcinformation-c8hah7bvgmeecvff.westeurope-01.azurewebsites.net/Localizacao', {
         method: 'POST',
